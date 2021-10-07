@@ -6,9 +6,9 @@
   "author": "Nils J. <nils.jorek@gmx.de>",
   "license": "MIT",
   "scripts": {
-    "docs:dev": "vitepress dev src",
-    "docs:build": "vitepress build src",
-    "docs:serve": "vitepress serve src"
+    "dev": "vitepress dev src",
+    "build": "vitepress build src",
+    "serve": "vitepress serve src"
   },
   "devDependencies": {
     "@types/fs-extra": "^9.0.13",
