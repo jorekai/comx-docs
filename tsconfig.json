@@ -13,14 +13,14 @@
       "strictNullChecks": true,
       "forceConsistentCasingInFileNames": true,
       "types": [
-        "vite/client",
+        "vitepress",
         "node"
       ]
     },
     "include": [
       "./*.ts",
       "./src/.vitepress/**/*.ts",
-      "./src/.vitepress/**/*.vue",
+      "./src/.vitepress/**/*.vue", "src/.vitepress/theme/index.ts",
     ],
     "exclude": ["**/dist/**", "node_modules"]
   }

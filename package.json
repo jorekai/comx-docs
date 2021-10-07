@@ -11,6 +11,10 @@
     "docs:serve": "vitepress serve src"
   },
   "devDependencies": {
-    "vitepress": "^0.19.2"
+    "@types/fs-extra": "^9.0.13",
+    "@types/node": "^16.10.3",
+    "vite-plugin-windicss": "^1.4.9",
+    "vitepress": "^0.19.2",
+    "windicss": "^3.1.9"
   }
 }

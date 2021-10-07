@@ -20,14 +20,14 @@ const Knowledge = [
 
 const sideBarContent = [
   { text: "Home", link: "/" },
-  { text: "Projects", children: Projects },
-  { text: "Knowledge", children: Knowledge },
-  { text: "Contacts", children: Contacts },
+  { text: "Projects", link: "/projects/", children: Projects },
+  { text: "Knowledge", link: "/knowledge/", children: Knowledge },
+  { text: "Contacts", link: "/contacts/", children: Contacts },
 ];
 
 module.exports = {
-  title: "Documentation",
-  description: "Internal Wiki",
+  title: "Wiki",
+  description: "CommunicationX Internal Wiki",
   head: [
     ["meta", { name: "author", content: "CommunicationX GmbH" }],
     ["meta", { property: "og:title", content: "ComX - Docs" }],
@@ -66,9 +66,9 @@ module.exports = {
     editLinkText: "Suggest changes to this page",
     nav: [
       { text: "Home", link: "/" },
-      { text: "Projects", link: "/projects/" },
-      { text: "Knowledge", link: "/knowledge/" },
-      { text: "Contacts", link: "/contacts/" },
+      { text: "Projects", items: Projects },
+      { text: "Knowledge", items: Knowledge },
+      { text: "Contacts", items: Contacts },
     ],
     sidebar: {
       "/": sideBarContent,
